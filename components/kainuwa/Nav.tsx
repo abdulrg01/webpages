@@ -70,7 +70,7 @@ export default function Header() {
           </button>
           <Link
             href="/brochure"
-            className="flex items-center space-x-2 bg-blue-900 text-white px-24 py-6 clip"
+            className="flex items-center space-x-2 bg-blue-900 mt-1 text-white px-24 py-6 clip"
           >
             <div className="p-3 bg-red-500 rounded-full">
               <Link2 size={24} />

@@ -1,4 +1,4 @@
-import GasStationLocations from "@/components/GasStationLocations";
+import GasStationLocations from "@/components/danmarna/GasStationLocations";
 
 export default function page() {
   return (

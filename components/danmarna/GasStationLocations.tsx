@@ -1,8 +1,6 @@
 "use client";
-import { ArrowUp } from "lucide-react";
-import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { InfiniteSlider } from "./ui/infinite-slider";
+import { InfiniteSlider } from "../ui/infinite-slider";
 
 const gasStations = [
   { id: 1, name: "Katsina State - 1", location: "Along Yahaya Madaki way" },
@@ -144,14 +142,6 @@ export default function GasStationLocations() {
           </div>
         </div>
       </div>
-
-      {/* Back to top button */}
-      <Link
-        href="#"
-        className="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-md bg-[#f13c3c] text-white shadow-lg"
-      >
-        <ArrowUp className="h-6 w-6" />
-      </Link>
     </section>
   );
 }

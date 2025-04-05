@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function Ready() {
   return (
-    <section className=" text-white w-full flex flex-col  items-center text-center w-[80%] bg-[#9333EA] p-[5%] my-[50px]">
+    <section className=" text-white w-full flex flex-col  items-center text-center w-[80%] bg-[#9333EA] p-[5%]">
       <motion.h1
         initial={{
           x: -100,

@@ -87,7 +87,7 @@ export default function PharmacyProductGrid() {
 
   return (
     <div className="container bg-white mx-auto px-4 py-8 relative">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {products.map((product) => (
           <Card
             key={product.id}

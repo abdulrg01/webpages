@@ -46,7 +46,7 @@ function Ready() {
         potential? EnhanceSphere is your ultimate partner in achieving personal
         fulfillment, financial independence, and professional excellence.
       </motion.p>
-      <a href="/">
+      <a href="#">
         <motion.button
           initial={{
             x: -100,

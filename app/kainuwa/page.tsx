@@ -6,6 +6,7 @@ import Hero from "@/components/kainuwa/Hero";
 import KainuwaLogo from "@/components/kainuwa/KainuwaLogo";
 import Nav from "@/components/kainuwa/Nav";
 import PharmacyHero from "@/components/kainuwa/PharmacyHero";
+import Ready from "@/components/kainuwa/Ready";
 import React from "react";
 
 export default function page() {
@@ -18,6 +19,7 @@ export default function page() {
       <CompanyMilestones />
       <PharmacyHero />
       <BlogPostsWithRealImages />
+      <Ready />
       <FooterSection />
     </main>
   );

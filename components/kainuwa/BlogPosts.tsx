@@ -11,7 +11,7 @@ export default function BlogPostsWithRealImages() {
           <h1 className="text-5xl md:text-6xl font-bold text-[#000080]">
             Latest News & Insights
           </h1>
-          <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-orange-500"></div>
+          <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#56a747]"></div>
         </div>
       </div>
 
@@ -28,7 +28,7 @@ export default function BlogPostsWithRealImages() {
             />
             {/* Date Badge */}
             <div className="absolute top-4 left-4 flex">
-              <div className="bg-red-500 text-white font-bold text-xl py-1 px-3">
+              <div className="bg-[#56a747] text-white font-bold text-xl py-1 px-3">
                 27
               </div>
               <div className="bg-gray-800 text-white font-bold text-xl py-1 px-3">
@@ -38,7 +38,7 @@ export default function BlogPostsWithRealImages() {
           </div>
           <div className="p-6 bg-white">
             <div className="flex items-center mb-3">
-              <div className="w-5 h-5 rounded-full bg-red-500 text-white flex items-center justify-center mr-2">
+              <div className="w-5 h-5 rounded-full bg-[#56a747] text-white flex items-center justify-center mr-2">
                 <span className="text-xs">A</span>
               </div>
               <span className="text-gray-600">by Admin</span>
@@ -63,7 +63,7 @@ export default function BlogPostsWithRealImages() {
             />
             {/* Date Badge */}
             <div className="absolute top-4 left-4 flex">
-              <div className="bg-red-500 text-white font-bold text-xl py-1 px-3">
+              <div className="bg-[#56a747] text-white font-bold text-xl py-1 px-3">
                 15
               </div>
               <div className="bg-gray-800 text-white font-bold text-xl py-1 px-3">
@@ -73,7 +73,7 @@ export default function BlogPostsWithRealImages() {
           </div>
           <div className="p-6 bg-white">
             <div className="flex items-center mb-3">
-              <div className="w-5 h-5 rounded-full bg-red-500 text-white flex items-center justify-center mr-2">
+              <div className="w-5 h-5 rounded-full bg-[#56a747] text-white flex items-center justify-center mr-2">
                 <span className="text-xs">A</span>
               </div>
               <span className="text-gray-600">by Admin</span>
@@ -98,7 +98,7 @@ export default function BlogPostsWithRealImages() {
             />
             {/* Date Badge */}
             <div className="absolute top-4 left-4 flex">
-              <div className="bg-red-500 text-white font-bold text-xl py-1 px-3">
+              <div className="bg-[#56a747] text-white font-bold text-xl py-1 px-3">
                 7
               </div>
               <div className="bg-gray-800 text-white font-bold text-xl py-1 px-3">
@@ -108,7 +108,7 @@ export default function BlogPostsWithRealImages() {
           </div>
           <div className="p-6 bg-white">
             <div className="flex items-center mb-3">
-              <div className="w-5 h-5 rounded-full bg-red-500 text-white flex items-center justify-center mr-2">
+              <div className="w-5 h-5 rounded-full bg-[#56a747] text-white flex items-center justify-center mr-2">
                 <span className="text-xs">A</span>
               </div>
               <span className="text-gray-600">by Admin</span>

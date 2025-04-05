@@ -28,7 +28,7 @@ export default function CompanyMilestones() {
       {/* Header */}
       <div className="text-center mb-12 relative z-10">
         <h3 className="text-gray-500 text-lg mb-2">Company Milestones</h3>
-        <div className="w-16 h-1 bg-orange-500 mx-auto mb-6"></div>
+        <div className="w-16 h-1 bg-[#56a747] mx-auto mb-6"></div>
         <h2 className="text-5xl font-bold text-blue-900">Our Company In Numbers</h2>
       </div>
 
@@ -40,7 +40,7 @@ export default function CompanyMilestones() {
             <Building2 className="w-12 h-12 text-blue-900" />
           </div>
           <h2 className="text-6xl font-bold text-blue-900 mb-2">100+</h2>
-          <h3 className="text-2xl font-semibold text-red-500 mb-4">Pharmacies</h3>
+          <h3 className="text-2xl font-semibold text-[#56a747] mb-4">Pharmacies</h3>
           <p className="text-gray-800">A Network of Over 100 Pharmacies Outlets Spanning 5 states of Nigeria.</p>
         </div>
 
@@ -50,7 +50,7 @@ export default function CompanyMilestones() {
             <Truck className="w-12 h-12 text-blue-900" />
           </div>
           <h2 className="text-6xl font-bold text-blue-900 mb-2">150+</h2>
-          <h3 className="text-2xl font-semibold text-red-500 mb-4">Diverse Fleet</h3>
+          <h3 className="text-2xl font-semibold text-[#56a747] mb-4">Diverse Fleet</h3>
           <p className="text-gray-800">
             Our fleet comprises over 150 trucks, equipped with capacities from 10,000 to 60,000 liters.
           </p>
@@ -62,7 +62,7 @@ export default function CompanyMilestones() {
             <Users className="w-12 h-12 text-blue-900" />
           </div>
           <h2 className="text-6xl font-bold text-blue-900 mb-2">2010</h2>
-          <h3 className="text-2xl font-semibold text-red-500 mb-4">Year Established</h3>
+          <h3 className="text-2xl font-semibold text-[#56a747] mb-4">Year Established</h3>
           <p className="text-gray-800">Providing excellence and satisfaction to customers for over 19 years.</p>
         </div>
       </div>

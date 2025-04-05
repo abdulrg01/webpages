@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="bg-white w-full z-50 relative">
       {/* Top red and blue stripes */}
-      <div className="w-full h-2 bg-gradient-to-r from-red-600 via-red-600 to-blue-900"></div>
+      <div className="w-full h-2 bg-gradient-to-r from-[#56a747] via-[#56a747] to-blue-900"></div>
 
       <div className="flex items-center justify-between">
         {/* Logo */}
@@ -33,7 +33,7 @@ export default function Header() {
                     />
                     <path
                       d="M15 15C15 15 25 25 25 40C25 25 35 15 45 15C35 15 25 5 25 20C25 5 15 15 15 15Z"
-                      fill="#E53E3E"
+                      fill="#56a747"
                     />
                     <path
                       d="M15 45C15 45 25 35 40 35C25 35 15 25 15 15C15 25 5 35 20 35C5 35 15 45 15 45Z"
@@ -43,7 +43,7 @@ export default function Header() {
                 </div>
                 <div>
                   <h1 className="text-blue-900 text-4xl font-bold">Kainuwa</h1>
-                  <p className="text-red-600 text-xs tracking-wider font-bold">
+                  <p className="text-[#56a747] text-xs tracking-wider font-bold">
                     PHARMACEUTICAL LTD
                   </p>
                 </div>
@@ -72,7 +72,7 @@ export default function Header() {
             href="/brochure"
             className="flex items-center space-x-2 bg-blue-900 mt-1 text-white px-24 py-6 clip"
           >
-            <div className="p-3 bg-red-500 rounded-full">
+            <div className="p-3 bg-[#56a747] rounded-full">
               <Link2 size={24} />
             </div>
             <div className="flex flex-col">
@@ -161,13 +161,13 @@ function NavItem({
   return (
     <Link
       href={href}
-      className={`text-blue-900 font-bold hover:text-red-600 transition-colors relative ${
-        active ? "text-red-600" : ""
+      className={`text-blue-900 font-bold hover:text-[#56a747] transition-colors relative ${
+        active ? "text-[#56a747]" : ""
       }`}
     >
       {label}
       {active && (
-        <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-red-600"></span>
+        <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-[#56a747]"></span>
       )}
     </Link>
   );
@@ -187,7 +187,7 @@ function MobileNavItem({
       <Link
         href={href}
         className={`block text-lg font-medium transition-colors ${
-          active ? "text-red-600" : "text-blue-900"
+          active ? "text-[#56a747]" : "text-blue-900"
         }`}
       >
         {label}

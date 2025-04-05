@@ -65,7 +65,7 @@ export default function PetroleumHero() {
           </p>
 
           {/* CTA Button */}
-          <Button className="bg-red-600 hover:bg-red-700 text-white font-bold py-5 px-8 rounded-md text-sm uppercase tracking-wide transition-all duration-300">
+          <Button className="bg-[#56a747] hover:bg-red-700 text-white font-bold py-5 px-8 rounded-md text-sm uppercase tracking-wide transition-all duration-300">
             OUR PRODUCTS AND SERVICES
           </Button>
         </div>
@@ -75,7 +75,7 @@ export default function PetroleumHero() {
       {showScrollButton && (
         <Button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 bg-red-500 hover:bg-red-600 text-white p-3 rounded-md z-50"
+          className="fixed bottom-6 right-6 bg-[#56a747] hover:bg-[#56a747] text-white p-3 rounded-md z-50"
           aria-label="Scroll to top"
         >
           <ChevronUp className="h-6 w-6" />

@@ -55,7 +55,7 @@ export default function GasStationLocations() {
 
       <div className="m-auto max-w-7xl px-6">
         <div className="mb-20 text-center relative z-10">
-          <p className="mt-4 font-semibold text-blue-200">We are in O<span className="border-b-2 border-red-500 pb-1">ver</span> 15+ States</p>
+          <p className="mt-4 font-semibold text-blue-200">We are in O<span className="border-b-2 border-[#56a747] pb-1">ver</span> 15+ States</p>
           <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-6xl">
             Extensive Reach:
           </h2>

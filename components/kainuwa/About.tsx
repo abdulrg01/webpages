@@ -24,7 +24,7 @@ export default function AboutSection() {
 
           <div className="flex items-center justify-center">
             <div className="h-[1px] w-24 bg-gray-700"></div>
-            <div className="h-1 w-12 mx-2 rounded-full bg-blue-900"></div>
+            <div className="h-1 w-12 mx-2 rounded-full bg-[#56a747]"></div>
             <div className="h-[1px] w-24 bg-gray-700"></div>
           </div>
         </motion.div>
@@ -118,7 +118,7 @@ export default function AboutSection() {
                     "Cultural heritage preservation",
                   ].map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="h-5 w-5 rounded-full bg-blue-900 flex-shrink-0 mt-1 mr-3"></span>
+                      <span className="h-5 w-5 rounded-full bg-[#56a747] flex-shrink-0 mt-1 mr-3"></span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -128,13 +128,13 @@ export default function AboutSection() {
               <div className="flex space-x-4">
                 <Link
                   href="#initiatives"
-                  className="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-full transition-colors"
+                  className="px-6 py-3 bg-[#56a747] hover:bg-red-700 text-white rounded-full transition-colors"
                 >
                   Learn More
                 </Link>
                 <Link
                   href="#contact"
-                  className="px-6 py-3 border border-blue-900 text-blue-900 rounded-full hover:bg-[#d4af37]/10 transition-colors"
+                  className="px-6 py-3 border border-[#56a747] text-[#56a747] rounded-full hover:bg-[#d4af37]/10 transition-colors"
                 >
                   Get Involved
                 </Link>

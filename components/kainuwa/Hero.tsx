@@ -132,7 +132,7 @@ export default function HeroCarousel() {
                 style={{ transitionDelay: "300ms" }}
               >
                 {slide.title}
-                <div className="w-24 h-1 bg-red-600 mt-4"></div>
+                <div className="w-24 h-1 bg-[#56a747] mt-4"></div>
               </h2>
               <p
                 className={cn(
@@ -147,7 +147,7 @@ export default function HeroCarousel() {
               </p>
               <button
                 className={cn(
-                  "bg-red-600 hover:bg-red-700 text-white px-8 py-3 uppercase font-bold text-sm tracking-wider transition-all duration-300 mt-6",
+                  "bg-[#56a747] hover:bg-red-700 text-white px-8 py-3 uppercase font-bold text-sm tracking-wider transition-all duration-300 mt-6",
                   currentSlide === index
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"

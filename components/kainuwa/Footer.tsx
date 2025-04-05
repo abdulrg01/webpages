@@ -139,7 +139,7 @@ export default function FooterSection() {
               />
               <path
                 d="M15 15C15 15 25 25 25 40C25 25 35 15 45 15C35 15 25 5 25 20C25 5 15 15 15 15Z"
-                fill="#E53E3E"
+                fill="#56a747"
               />
               <path
                 d="M15 45C15 45 25 35 40 35C25 35 15 25 15 15C15 25 5 35 20 35C5 35 15 45 15 45Z"
@@ -153,7 +153,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="X/Twitter"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -173,7 +173,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -193,7 +193,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -213,7 +213,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Threads"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -238,7 +238,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -258,7 +258,7 @@ export default function FooterSection() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"
-              className="text-white hover:text-muted-foreground block bg-red-500 p-2 rounded-full"
+              className="text-white hover:text-muted-foreground block bg-[#56a747] p-2 rounded-full"
             >
               <svg
                 className="size-6"
@@ -307,7 +307,7 @@ export default function FooterSection() {
                   placeholder="Your email"
                   className="h-8 text-sm border border-white rounded-none"
                 />
-                <Button size="sm" className="bg-red-500 text-white">Submit</Button>
+                <Button size="sm" className="bg-[#56a747] text-white">Submit</Button>
               </div>
               <span className="text-muted-foreground block text-sm">
                 Don&apos;t miss any update!

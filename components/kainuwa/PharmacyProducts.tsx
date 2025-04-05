@@ -124,7 +124,7 @@ export default function PharmacyProductGrid() {
               </Button>
             </CardContent>
             <CardFooter className="flex flex-col items-start p-4 pt-2">
-              <h3 className="text-sm font-medium text-bl line-clamp-2 h-10">
+              <h3 className="text-sm text-black font-medium text-bl line-clamp-2 h-10">
                 {product.name}
               </h3>
               <p className="text-[#56a747] font-bold mt-2">

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -45,7 +46,7 @@ function Ready() {
         potential? EnhanceSphere is your ultimate partner in achieving personal
         fulfillment, financial independence, and professional excellence.
       </motion.p>
-      <a href="/book.html">
+      <a href="/">
         <motion.button
           initial={{
             x: -100,

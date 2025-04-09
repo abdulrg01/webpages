@@ -45,7 +45,7 @@ export default function Header() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-blue-900 md:text-4xl text-3xl font-bold">SAUKI</h1>
+                    <h1 className="text-blue-950 md:text-4xl text-3xl font-bold">SAUKI</h1>
                     <p className="text-[#56a747] text-xs tracking-wider font-bold">
                       PHARMACEUTICAL LTD
                     </p>
@@ -183,7 +183,7 @@ function NavItem({
   return (
     <Link
       href={href}
-      className={`text-blue-900 font-bold hover:text-[#56a747] transition-colors relative ${
+      className={`text-blue-950 font-bold hover:text-[#56a747] transition-colors relative ${
         active ? "text-[#56a747]" : ""
       }`}
     >
@@ -209,7 +209,7 @@ function MobileNavItem({
       <Link
         href={href}
         className={`block text-lg font-medium transition-colors ${
-          active ? "text-[#56a747]" : "text-blue-900"
+          active ? "text-[#56a747]" : "text-blue-950"
         }`}
       >
         {label}

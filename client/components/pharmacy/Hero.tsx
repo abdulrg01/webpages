@@ -48,8 +48,8 @@ export default function HomeSection() {
       {/* Bottom Section */}
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-black">
-            Magani mai inganci
+          <h2 className="text-4xl font-bold text-center text-blue-950">
+            Manyan magunguna cikin <span className="border-b-4 border-[#56a747]">Sauki </span> da rahusa
           </h2>
         </div>
       </div>

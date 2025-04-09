@@ -1,7 +1,12 @@
-import React from 'react'
+import HomeSection from "@/components/pharmacy/Hero";
+import PharmacyProductGrid from "@/components/pharmacy/PharmacyProducts";
+import React from "react";
 
 export default function page() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <HomeSection />
+      <PharmacyProductGrid />
+    </div>
+  );
 }
